@@ -38,6 +38,6 @@ const keycloak = new KeycloakConnect({ store: memoryStore }, kc_config);
 const some_cool_client = new KeycloakClientAPI.KeycloakClient(keycloak, <Client name as in the keycloak server>, <the client secret>);
 ```
 
-# Requirements
+# Requirements:
 1) Make sure the given client has *direct access* mode enabled (can be done through the keycloak UI).
 2) Some functionalities (e.g: `KeycloakClient.getUsers()`) depend on the roles assigned to the client. Therefore, the client must have a valid role to view the users in keycloak. Since this package is a lightweight package, it does not bother to check for client missconfigurations.
