@@ -1,5 +1,5 @@
 # Keycloak-Client
-**Keycloak-Client** is an npm package responsible to handle the communication to a `keycloak` authentication server through one of the realm's clients. In any project, the developer can define 1+ clients, and use them to alter the realm or view some related data. Note: A `client` in keycloak terminology refers to an application representation inside the realm. 
+This **Keycloak-Client** is an npm package responsible to handle the communication to a `keycloak` authentication server through one of the realm's clients. In any project, the developer can define 1+ clients, and use them to alter the realm or view some related data. Note: A `client` in keycloak terminology refers to an application representation inside the realm. 
 
 # How to Build:
 Building the source code to produce the package is quite straight forward: 
@@ -12,7 +12,7 @@ Building the source code to produce the package is quite straight forward:
 # How to Use:
 * First of all the package module must be integrated to the desired project. This can be done in two ways:
   * 1) The developer may build the package from the source code, then copy the output folder (`dist/`) or its modules to their projects.
-  * 2) The developer download the package from the *npm registry* through the following command: `npm install keycloak-client`, or by adding the `keycloak-client` to the `package.json` file in their project (don't forget to run `npm install` afterwards ;)).
+  * 2) The developer download the package from the *npm registry* through the following command: `npm install mohido-keycloak-client`, or by adding the `mohido-keycloak-client` to the `package.json` file in their project (don't forget to run `npm install` afterwards ;)).
 * After a successfull merging of the package modules, the developer may use the package directly as shown in the `tests/test1.js` file. The file encapsulates a simple use case of the *KeycloakClient` object. 
 * To initialize a `KeycloakClient` object, the developer must first create a keycloak connection object through the *keycloak-connect* package as shown in the code:
 

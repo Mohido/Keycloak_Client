@@ -1,5 +1,5 @@
 {
-  "name": "keycloak-client",
+  "name": "mohido-keycloak-client",
   "version": "0.1.0",
   "description": "Establishes and abstracts keycloak clients connections and functionalities",
   "main": "dist/index.js",
