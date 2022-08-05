@@ -4,7 +4,7 @@ import qs from 'qs';
 // import KeycloakConnect = require('keycloak-connect');
 
 
-namespace KeycloakClientAPI{
+export namespace KeycloakClientAPI{
     
     export interface KeycloakUser {
         username : string;
@@ -96,7 +96,7 @@ namespace KeycloakClientAPI{
             return userData;   
         };
     
-    
+
         /**
          * Get all users in the realm. If roles are given, then get the users with that specific role/s.
          *  Otherwise, return all users regardless of their role.
