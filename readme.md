@@ -40,4 +40,4 @@ const some_cool_client = new KeycloakClientAPI.KeycloakClient(keycloak, <Client 
 
 # Requirements
 1) Make sure the given client has *direct access* mode enabled (can be done through the keycloak UI).
-2) Some functionalities like: `KeycloakClient.getUsers()` depends on the roles of the client. Therefore, the client must have a valid role to view the users in keycloak. Since this pckage is a lightweight package, it does not check for client missconfigurations.
+2) Some functionalities (e.g: `KeycloakClient.getUsers()`) depend on the roles assigned to the client. Therefore, the client must have a valid role to view the users in keycloak. Since this package is a lightweight package, it does not bother to check for client missconfigurations.
