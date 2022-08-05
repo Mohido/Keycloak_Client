@@ -2,3 +2,8 @@ lib/
 *package-lock.json
 *node_modules/
 tests/
+
+tsconfig.json
+.gitignore
+.git*/
+.vs*/
